@@ -13,7 +13,7 @@ int main()
 
     for(index1=0;index1<num;index1++)
     {
-        for(index2=0;index2<num-1;index2++)
+        for(index2=0;index2<num-index1-1;index2++)
         {
             if(ar[index2]>ar[index2+1])
            {
